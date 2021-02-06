@@ -1,0 +1,407 @@
+/* https://codepen.io/anandaprojapati/full/KgvNvv/ */
+.btn {
+  background: transparent;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1;
+  margin: 18px;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  outline: none;
+  position: relative;
+  top: 0;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -moz-transition: all 0.2s ease-in-out 0s;
+  -ms-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.green {
+  background: #10bc98;
+  color: #fff;
+  box-shadow: 0 3px 0 #0c8d72;
+}
+.green:hover {
+  background: #13d7ae;
+}
+.green:active, .green:focus {
+  background: #0fae8d;
+}
+.green.press-me:active {
+  box-shadow: 0 2px 0 #0c8d72;
+}
+.green.transparent {
+  border-color: #10bc98;
+}
+.green.effect-left:after, .green.effect-right:after, .green.effect-up:after, .green.effect-down:after, .green.effect-horiz:after, .green.effect-vart:after, .green.effect-box:after, .green.effect-down-left:after, .green.effect-up-right:after {
+  background: #13d7ae;
+}
+.green.effect-glow:hover {
+  box-shadow: 0 0 10px 0 #10bc98 inset, 0 0 10px 2px #10bc98;
+}
+
+.light-green {
+  background: #87bc58;
+  color: #fff;
+  box-shadow: 0 3px 0 #6ea140;
+}
+.light-green:hover {
+  background: #c0da82;
+}
+.light-green:active, .light-green:focus {
+  background: #7fb84d;
+}
+.light-green.press-me:active {
+  box-shadow: 0 2px 0 #6ea140;
+}
+.light-green.transparent {
+  border-color: #87bc58;
+}
+.light-green.effect-left:after, .light-green.effect-right:after, .light-green.effect-up:after, .light-green.effect-down:after, .light-green.effect-horiz:after, .light-green.effect-vart:after, .light-green.effect-box:after, .light-green.effect-down-left:after, .light-green.effect-up-right:after {
+  background: #c0da82;
+}
+.light-green.effect-glow:hover {
+  box-shadow: 0 0 10px 0 #87bc58 inset, 0 0 10px 2px #87bc58;
+}
+
+.orange {
+  background: #e77e22;
+  color: #fff;
+  box-shadow: 0 3px 0 #c16515;
+}
+.orange:hover {
+  background: #f6b417;
+}
+.orange:active, .orange:focus {
+  background: #dd7418;
+}
+.orange.press-me:active {
+  box-shadow: 0 2px 0 #c16515;
+}
+.orange.transparent {
+  border-color: #e77e22;
+}
+.orange.effect-left:after, .orange.effect-right:after, .orange.effect-up:after, .orange.effect-down:after, .orange.effect-horiz:after, .orange.effect-vart:after, .orange.effect-box:after, .orange.effect-down-left:after, .orange.effect-up-right:after {
+  background: #f6b417;
+}
+.orange.effect-glow:hover {
+  box-shadow: 0 0 10px 0 #e77e22 inset, 0 0 10px 2px #e77e22;
+}
+
+.blue {
+  background: #3cbce1;
+  color: #fff;
+  box-shadow: 0 3px 0 #1fa4cb;
+}
+.blue:hover {
+  background: #56d7ed;
+}
+.blue:active, .blue:focus {
+  background: #2fb7df;
+}
+.blue.press-me:active {
+  box-shadow: 0 2px 0 #1fa4cb;
+}
+.blue.transparent {
+  border-color: #3cbce1;
+}
+.blue.effect-left:after, .blue.effect-right:after, .blue.effect-up:after, .blue.effect-down:after, .blue.effect-horiz:after, .blue.effect-vart:after, .blue.effect-box:after, .blue.effect-down-left:after, .blue.effect-up-right:after {
+  background: #56d7ed;
+}
+.blue.effect-glow:hover {
+  box-shadow: 0 0 10px 0 #3cbce1 inset, 0 0 10px 2px #3cbce1;
+}
+
+.purple {
+  background: #9a59b5;
+  color: #fff;
+  box-shadow: 0 3px 0 #7f4497;
+}
+.purple:hover {
+  background: #c472e6;
+}
+.purple:active, .purple:focus {
+  background: #944fb0;
+}
+.purple.press-me:active {
+  box-shadow: 0 2px 0 #7f4497;
+}
+.purple.transparent {
+  border-color: #9a59b5;
+}
+.purple.effect-left:after, .purple.effect-right:after, .purple.effect-up:after, .purple.effect-down:after, .purple.effect-horiz:after, .purple.effect-vart:after, .purple.effect-box:after, .purple.effect-down-left:after, .purple.effect-up-right:after {
+  background: #c472e6;
+}
+.purple.effect-glow:hover {
+  box-shadow: 0 0 10px 0 #9a59b5 inset, 0 0 10px 2px #9a59b5;
+}
+
+.yellow {
+  background: #fac75a;
+  color: #fff;
+  box-shadow: 0 3px 0 #f9b629;
+}
+.yellow:hover {
+  background: #fce17a;
+}
+.yellow:active, .yellow:focus {
+  background: #fac24b;
+}
+.yellow.press-me:active {
+  box-shadow: 0 2px 0 #f9b629;
+}
+.yellow.transparent {
+  border-color: #fac75a;
+}
+.yellow.effect-left:after, .yellow.effect-right:after, .yellow.effect-up:after, .yellow.effect-down:after, .yellow.effect-horiz:after, .yellow.effect-vart:after, .yellow.effect-box:after, .yellow.effect-down-left:after, .yellow.effect-up-right:after {
+  background: #fce17a;
+}
+.yellow.effect-glow:hover {
+  box-shadow: 0 0 10px 0 #fac75a inset, 0 0 10px 2px #fac75a;
+}
+
+.grey {
+  background: #4c4c4c;
+  color: #fff;
+  box-shadow: 0 3px 0 #333333;
+}
+.grey:hover {
+  background: #747373;
+}
+.grey:active, .grey:focus {
+  background: #444444;
+}
+.grey.press-me:active {
+  box-shadow: 0 2px 0 #333333;
+}
+.grey.transparent {
+  border-color: #4c4c4c;
+}
+.grey.effect-left:after, .grey.effect-right:after, .grey.effect-up:after, .grey.effect-down:after, .grey.effect-horiz:after, .grey.effect-vart:after, .grey.effect-box:after, .grey.effect-down-left:after, .grey.effect-up-right:after {
+  background: #747373;
+}
+.grey.effect-glow:hover {
+  box-shadow: 0 0 10px 0 #4c4c4c inset, 0 0 10px 2px #4c4c4c;
+}
+
+.red {
+  background: #e84c3d;
+  color: #fff;
+  box-shadow: 0 3px 0 #d82a1a;
+}
+.red:hover {
+  background: #f57b8a;
+}
+.red:active, .red:focus {
+  background: #e63b2b;
+}
+.red.press-me:active {
+  box-shadow: 0 2px 0 #d82a1a;
+}
+.red.transparent {
+  border-color: #e84c3d;
+}
+.red.effect-left:after, .red.effect-right:after, .red.effect-up:after, .red.effect-down:after, .red.effect-horiz:after, .red.effect-vart:after, .red.effect-box:after, .red.effect-down-left:after, .red.effect-up-right:after {
+  background: #f57b8a;
+}
+.red.effect-glow:hover {
+  box-shadow: 0 0 10px 0 #e84c3d inset, 0 0 10px 2px #e84c3d;
+}
+
+.dark-blue {
+  background: #34495e;
+  color: #fff;
+  box-shadow: 0 3px 0 #22303d;
+}
+.dark-blue:hover {
+  background: #425c77;
+}
+.dark-blue:active, .dark-blue:focus {
+  background: #2f4154;
+}
+.dark-blue.press-me:active {
+  box-shadow: 0 2px 0 #22303d;
+}
+.dark-blue.transparent {
+  border-color: #34495e;
+}
+.dark-blue.effect-left:after, .dark-blue.effect-right:after, .dark-blue.effect-up:after, .dark-blue.effect-down:after, .dark-blue.effect-horiz:after, .dark-blue.effect-vart:after, .dark-blue.effect-box:after, .dark-blue.effect-down-left:after, .dark-blue.effect-up-right:after {
+  background: #425c77;
+}
+.dark-blue.effect-glow:hover {
+  box-shadow: 0 0 10px 0 #34495e inset, 0 0 10px 2px #34495e;
+}
+
+.ash-grey {
+  background: #bec3c7;
+  color: #fff;
+  box-shadow: 0 3px 0 #a3aaaf;
+}
+.ash-grey:hover {
+  background: #d0d5d9;
+}
+.ash-grey:active, .ash-grey:focus {
+  background: #b0b6bb;
+}
+.ash-grey.press-me:active {
+  box-shadow: 0 2px 0 #a3aaaf;
+}
+.ash-grey.transparent {
+  border-color: #bec3c7;
+}
+.ash-grey.effect-left:after, .ash-grey.effect-right:after, .ash-grey.effect-up:after, .ash-grey.effect-down:after, .ash-grey.effect-horiz:after, .ash-grey.effect-vart:after, .ash-grey.effect-box:after, .ash-grey.effect-down-left:after, .ash-grey.effect-up-right:after {
+  background: #d0d5d9;
+}
+.ash-grey.effect-glow:hover {
+  box-shadow: 0 0 10px 0 #bec3c7 inset, 0 0 10px 2px #bec3c7;
+}
+
+.rounded {
+  border-radius: 5px;
+}
+.rounded[class*='effect-']:after {
+  border-radius: 5px;
+}
+
+.full-rounded {
+  border-radius: 20em;
+}
+.full-rounded[class*='effect-']:after {
+  border-radius: 20em;
+}
+
+.press-me:active {
+  top: 3px;
+}
+
+.transparent {
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+  color: #000;
+}
+
+[class*='effect-']:hover, [class*='effect-']:active, [class*='effect-']:focus {
+  background: none;
+}
+[class*='effect-']:after {
+  content: "";
+  position: absolute;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  z-index: -1;
+}
+
+.effect-left:after {
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 0;
+}
+
+.effect-left:hover:after {
+  width: 100%;
+}
+
+.effect-right:after {
+  height: 100%;
+  right: 0;
+  top: 0;
+  width: 0;
+}
+
+.effect-right:hover:after {
+  width: 100%;
+}
+
+.effect-up:after {
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 0;
+}
+
+.effect-up:hover:after {
+  height: 100%;
+}
+
+.effect-down:after {
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 0;
+}
+
+.effect-down:hover:after {
+  height: 100%;
+}
+
+.effect-horiz:after {
+  height: 100%;
+  left: 50%;
+  top: 0;
+  width: 0;
+}
+
+.effect-horiz:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.effect-vart:after {
+  width: 100%;
+  top: 50%;
+  left: 0;
+  height: 0;
+}
+
+.effect-vart:hover:after {
+  height: 100%;
+  top: 0;
+}
+
+.effect-box:after {
+  width: 0;
+  top: 50%;
+  left: 50%;
+  height: 0;
+}
+
+.effect-box:hover:after {
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.effect-down-left:after {
+  width: 0;
+  top: 0;
+  left: 0;
+  height: 0;
+}
+
+.effect-down-left:hover:after {
+  width: 100%;
+  height: 100%;
+}
+
+.effect-up-right:after {
+  width: 0;
+  right: 0;
+  bottom: 0;
+  height: 0;
+}
+
+.effect-up-right:hover:after {
+  width: 100%;
+  height: 100%;
+}
