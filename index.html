@@ -6,7 +6,37 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <link rel='stylesheet' href='buttonStyleCustom.css'>
+<script src="site-animations.js" defer></script>
+<style>
+  .fade-in {
+    opacity: 1 !important;
+    transform: translateY(0) scale(1);
+    transition: opacity 0.8s, transform 0.8s;
+  }
+  /* .w3-container, .w3-card, .buttons {
+    opacity: 0;
+    transform: translateY(40px) scale(0.98);
+    transition: opacity 0.8s, transform 0.8s;
+  } */
+  .btn.bounce {
+    animation: bounce 0.5s;
+  }
+  @keyframes bounce {
+    0% { transform: scale(1); }
+    30% { transform: scale(1.15); }
+    50% { transform: scale(0.95); }
+    70% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+  }
+  .w3-display-container img.zoom {
+    transition: transform 0.4s;
+    transform: scale(1.08);
+    z-index: 2;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+  }
+</style>
 
 <link rel="icon"  href="About_Us.png">
 <style>
@@ -31,38 +61,33 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           </div>
         </div>
         <div class="w3-container">
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Computer Science</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Nigeria, US</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>oluloep0@sewanee.edu</p>
-          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>(+1)9316368530</p>
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Software Engineer</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Toronto, ON, Canada</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>Emmanuel.P.Oluloto@sewanee.edu</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>647-446-8530</p>
+          <p><i class="fa fa-linkedin fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="https://www.linkedin.com/in/emmanuel-oluloto633/" target="_blank">LinkedIn</a></p>
           <hr>
 
           <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
-          <p>Java</p>
+          <p>Java, Python, Golang </p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:96%">96%</div>
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:95%">95%</div>
           </div>
-          <p>Web Development (HTML, CSS, PHP, Frameworks)</p>
+          <p>Typescript, Angular, SQL</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
-              <div class="w3-center w3-text-white">80%</div>
-            </div>
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:92%">92%</div>
+          </div>          
+          <p>Cloud & DevOps (Azure, Docker, Kubernetes, CI/CD)</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
           </div>
-          <p>R</p>
+          <p>Linux System Administration</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:78%">78%</div>
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:88%">88%</div>
           </div>
-          <p>JavaScript</p>
+          <p>REST API Development</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
-          </div>
-          <p>Media</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:60%">60%</div>
-          </div>
-          <p>C++, C#</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:55%">55%</div>
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:85%">85%</div>
           </div>
           <br>
 
@@ -93,51 +118,54 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
 
         <div class="w3-container">
-          <h5 class="w3-opacity"><b> Analyst  / Blackrock Inc. </b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i> Aug 2019 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <p> I work as a software developer on a variety of different fields like fornt & backend web development, server building and management and scripting.</p>
-          <hr>
-        </div>        
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Student Technician and Helpdesk Specialist  / University of the South</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i> Sept 2015 - May 2019</h6>
-          <p>I created designs for new webpages for the school website. I also managed the content on the school website and 
-            ensured that all the media on the site followed the ADA compliance using the TerminalFour web management platform. 
-            I repaired broken links and documented any webpage issues for further repair. I also created a graphic title for a 
-            summer event on-campus with After Effects and Premiere Pro.</p>
+          <h5 class="w3-opacity"><b>Associate Engineer III / BlackRock Inc.</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>July 2021 - Present</h6>
+          <ul>
+            <li>Provided technical support to 25+ software teams for onboarding and debugging development tools</li>
+            <li>Analyzed and remediated security vulnerabilities in tools and codebases</li>
+            <li>Developed Bash, Python, and Go automation for Azure DevOps agents and Linux filesystems, improving build success and speed</li>
+            <li>Configured and maintained Linux systemd services, storage, and NFS for 100+ Linux hosts (baremetal & Azure VM)</li>
+            <li>Built monitoring tools using Java, Kafka, Splunk, and Azure</li>
+            <li>Worked in Agile Scrum using Azure DevOps for end-to-end software development</li>
+          </ul>
           <hr>
         </div>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Marketing and Communications Intern /  University of the South</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2016 – Aug 2016</h6>
-          <p>I answer phone calls and provide tech help to callers or redirect them to the right people who can 
-            handle their problems. I also help students and community members fix their computer problems, and set up 
-            equipment for events and rooms. I am also involved in moving and maintaining the technical equipment. 
-              In the summer I also prepared a training course for new workers with my coworker, and we created and edited
-               the training videos with Premiere Pro and Screen Capture software.</p>
+          <h5 class="w3-opacity"><b>Analyst Engineer III / BlackRock Inc.</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>July 2019 - July 2021</h6>
+          <ul>
+            <li>Developed and maintained software for five teams</li>
+            <li>Built and managed 10+ backend APIs and services using Java, Python, Spring Boot</li>
+            <li>Worked on frontend (Angular, TypeScript) and backend (Java, Scala, SQL) for documentation and accounting apps</li>
+            <li>Presented technical solutions and process improvements to cross-functional teams</li>
+          </ul>
           <hr>
         </div>
-<!--         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Graphic Designer / designsomething.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
-        </div> -->
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Student Technician & Helpdesk Specialist / University of the South</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sept 2015 - May 2019</h6>
+          <ul>
+            <li>Designed and managed content for the university website, ensuring ADA compliance</li>
+            <li>Repaired broken links and documented web issues</li>
+            <li>Created graphics for campus events using After Effects and Premiere Pro</li>
+          </ul>
+          <hr>
+        </div>
 
       </div>
 
       <div class="w3-container w3-card w3-white">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Udemy</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2018 -2019</h6>
-          <p>Online Course in <b> Android Development </b> and <b>Data Science</b> </p>
+          <h5 class="w3-opacity"><b>Masters of Business Administration, Organizational Management</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Eastern University, St. Davids, PA, USA — Expected Aug 2024</h6>
+          <p>Coursework: Managerial Economics, Data Analysis, Financial Accounting, Operations & Supply Management</p>
           <hr>
         </div>
-
         <div class="w3-container">
-          <h5 class="w3-opacity"><b> University of the South</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2015 - 2019</h6>
-          <p>Bachelor Degree in Computer Science</p><br>
+          <h5 class="w3-opacity"><b>Bachelor of Science, Computer Science & Mathematics</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>The University of the South, Sewanee, TN, USA — 2015 - 2019</h6>
+          <p>Coursework: Data Structures, Algorithms, Web Design, Data Mining, Databases, Computer Graphics</p><br>
         </div>
       </div>
 
@@ -155,16 +183,16 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 <!-- Looking for icon guide? https://fontawesome.com/v4.7.0/icons/ -->
   <div class="buttons w3-container w3-card w3-white" style="text-align: center;">
     <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i> More About Me</h2>
-
+    <p><b>SUMMARY</b>: Software Engineer with experience across backend, full-stack, and data platforms in financial services, specializing in Java, Python, cloud-native architectures, and DevOps. Proven ability to build and maintain reliable and scalable on-prem and cloud infrastructure, automate CI/CD pipelines and deployments, and deliver end-to-end features across frontend and backend systems.</p>
     <p id="myWebApps"> Check out some of the web work I've done! </p>
     <a class="btn blue transparent effect-down" href="https://icyblaze16.wixsite.com/emmaloto"> <span class="fa fa-globe fa-fw blue"></span> My Website </a> 
     <a class="btn orange transparent effect-up" href="http://hive.sewanee.edu/oluloep0/bugproj/buginfo.html"> <span class="fa fa-bug fa-fw orange"></span> What's bugging you? </a>
     <a class="btn light-green transparent rounded effect-right" href="http://newsewaneeplants-com.stackstaging.com/"> <span class="fa fa-leaf fa-fw light-green"></span>  Leafing Already? </a>
     <hr>
-    <a class="btn purple transparent rounded effect-right" href="http://hive.sewanee.edu/oluloep0/web-projects/Robo-Click/"> <span class="fa fa-reddit-alien fa-fw purple"></span>  Catch the Robot </a>
-    <a class="btn purple transparent rounded effect-right" href="http://hive.sewanee.edu/oluloep0/web-projects/Flower_Picker/"> <span class="fa fa-pagelines fa-fw purple"></span>  Pick some Flowers </a>
-    <a class="btn purple transparent rounded effect-right" href="http://hive.sewanee.edu/oluloep0/web-projects/Audio_Player/"> <span class="fa fa-music fa-fw purple"></span> Sounds Awesome </a>
-    <a class="btn purple transparent rounded effect-right" href="apps/timeFormats/"> <span class="fa fa-clock-o fa-fw purple"></span> On Time </a>
+    <a class="btn purple transparent rounded effect-right" href="/apps/WebGraphics/Robo-Click/index.html"> <span class="fa fa-reddit-alien fa-fw purple"></span>  Catch the Robot </a>
+    <a class="btn purple transparent rounded effect-right" href="/apps/WebGraphics/Flower_Picker/index.html"> <span class="fa fa-pagelines fa-fw purple"></span>  Pick some Flowers </a>
+    <a class="btn purple transparent rounded effect-right" href="/apps/WebGraphics/Audio_Player/index.html"> <span class="fa fa-music fa-fw purple"></span> Sounds Awesome </a>
+    <a class="btn purple transparent rounded effect-right" href="/apps/WebApplications/timeFormats/index.html"> <span class="fa fa-clock-o fa-fw purple"></span> On Time </a>
     
   </div>
 
