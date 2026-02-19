@@ -1,0 +1,12 @@
+[submodule "apps/WebGraphics"]
+	path = apps/WebGraphics
+	url = https://github.com/Emmaloto/WebGraphics.git
+[submodule "apps/WebApplications"]
+	path = apps/WebApplications
+	url = https://github.com/Emmaloto/WebApplications.git
+[submodule "apps/SewaneeProfessor"]
+	path = apps/SewaneeProfessor
+	url = https://github.com/Emmaloto/SewaneeProfessor.git
+[submodule "apps/WalkingStickBug"]
+	path = apps/WalkingStickBug
+	url = https://github.com/Emmaloto/WalkingStickBug.git
