@@ -1,12 +1,20 @@
 [submodule "apps/WebGraphics"]
 	path = apps/WebGraphics
 	url = https://github.com/Emmaloto/WebGraphics.git
+	branch = master
 [submodule "apps/WebApplications"]
 	path = apps/WebApplications
 	url = https://github.com/Emmaloto/WebApplications.git
+	branch = master
 [submodule "apps/SewaneeProfessor"]
 	path = apps/SewaneeProfessor
 	url = https://github.com/Emmaloto/SewaneeProfessor.git
+	branch = master
 [submodule "apps/WalkingStickBug"]
 	path = apps/WalkingStickBug
 	url = https://github.com/Emmaloto/WalkingStickBug.git
+	branch = master
+[submodule "apps/mapping-game"]
+	path = apps/mapping-game
+	url = https://github.com/Emmaloto/mapping-game.git
+	branch = master
