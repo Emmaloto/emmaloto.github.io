@@ -1,0 +1,54 @@
+    html,
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Roboto", sans-serif
+  }
+  
+  .fade-in {
+    opacity: 1 !important;
+    transform: translateY(0) scale(1);
+    transition: opacity 0.8s, transform 0.8s;
+  }
+
+  /* .w3-container, .w3-card, .buttons {
+    opacity: 0;
+    transform: translateY(40px) scale(0.98);
+    transition: opacity 0.8s, transform 0.8s;
+  } */
+  .btn.bounce {
+    animation: bounce 0.5s;
+  }
+
+  @keyframes bounce {
+    0% {
+      transform: scale(1);
+    }
+
+    30% {
+      transform: scale(1.15);
+    }
+
+    50% {
+      transform: scale(0.95);
+    }
+
+    70% {
+      transform: scale(1.05);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .w3-display-container img.zoom {
+    transition: transform 0.4s;
+    transform: scale(1.08);
+    z-index: 2;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  }
