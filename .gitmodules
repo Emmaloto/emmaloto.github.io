@@ -5,7 +5,7 @@
 [submodule "apps/WebApplications"]
 	path = apps/WebApplications
 	url = https://github.com/Emmaloto/WebApplications.git
-	branch = master
+	branch = main
 [submodule "apps/SewaneeProfessor"]
 	path = apps/SewaneeProfessor
 	url = https://github.com/Emmaloto/SewaneeProfessor.git
